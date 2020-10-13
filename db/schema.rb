@@ -12,9 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_10_13_010845) do
 
-  create_table "create_movies", force: :cascade do |t|
+  create_table "movies", force: :cascade do |t|
     t.string "title"
-    t.datetime "release_date"
+    t.integer "release_date"
     t.string "director"
     t.string "lead"
     t.boolean "in_theaters"
